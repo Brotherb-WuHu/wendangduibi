@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "文件上传B",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "lsj-upload": "../../uni_modules/lsj-upload/components/lsj-upload/lsj-upload",
+    "uni-popup-message": "../../uni_modules/uni-popup/components/uni-popup-message/uni-popup-message",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

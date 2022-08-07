@@ -1,0 +1,1 @@
+<view class="lsj-file data-v-8724a0b6" style="{{d}}"><view ref="lsj" class="hFile data-v-8724a0b6" style="{{b}}" bindtap="{{c}}"><block wx:if="{{$slots.d}}"><slot></slot></block><block wx:else><view class="defview data-v-8724a0b6" style="{{a}}">附件上传</view></block></view></view>

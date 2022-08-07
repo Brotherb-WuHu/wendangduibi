@@ -1,0 +1,1 @@
+<view><view class="title">文本A</view><view class="fileView"><rich-text nodes="{{a}}"></rich-text></view><view class="title">文本B</view><view class="fileView"><rich-text nodes="{{b}}" use-anchor="ture"></rich-text></view></view>

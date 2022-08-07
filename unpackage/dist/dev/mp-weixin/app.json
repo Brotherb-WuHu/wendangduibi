@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/upload1/upload1",
+    "pages/upload2/upload2",
+    "pages/getRes/getRes",
+    "pages/getRes2/getRes2"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#5FA7EA",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/upload1/upload1",
+        "text": "文件A"
+      },
+      {
+        "pagePath": "pages/upload2/upload2",
+        "text": "文件B"
+      },
+      {
+        "pagePath": "pages/getRes/getRes",
+        "text": "AB对比"
+      },
+      {
+        "pagePath": "pages/getRes2/getRes2",
+        "text": "逐段对比"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

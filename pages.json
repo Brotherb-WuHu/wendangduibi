@@ -1,0 +1,79 @@
+{
+    "pages": [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/upload1/upload1",
+            "style": {
+                "navigationBarTitleText": "文件上传A",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/upload2/upload2",
+            "style": {
+                "navigationBarTitleText": "文件上传B",
+                "enablePullDownRefresh": false
+            }
+        },{
+            "path" : "pages/getRes/getRes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/getRes2/getRes2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "uniIdRouter": {},
+
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#5FA7EA",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/upload1/upload1",
+                "text": "文件A"
+            },
+            {
+                "pagePath": "pages/upload2/upload2",
+                "text": "文件B"
+            },
+			{
+			    "pagePath": "pages/getRes/getRes",
+			    "text": "AB对比"
+			},{
+			    "pagePath": "pages/getRes2/getRes2",
+			    "text": "逐段对比"
+			},{
+			    "pagePath": "pages/profile/profile",
+			    "text": "我的"
+			}
+        ]
+    }
+}

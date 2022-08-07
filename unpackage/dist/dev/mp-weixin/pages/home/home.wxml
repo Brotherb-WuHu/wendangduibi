@@ -1,0 +1,1 @@
+<view><view>我是home</view><view><button bindtap="{{a}}">点我</button></view><view>{{b}}</view></view>

@@ -1,0 +1,14 @@
+
+.title{
+		text-align: center;
+		font-size: 30rpx
+}
+.fileView{
+	overflow-x: hidden; 
+	overflow-y: scroll; 
+	margin: 1rem auto;
+	padding: 0 1rem;
+	width: 675rpx;
+	height: 14rem;
+	background-color: aliceblue;
+}
